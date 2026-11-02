@@ -1,0 +1,26 @@
+{
+  "name": "nightfall",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first offline music player",
+  "main": "src/main/main.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "npm run build && electron .",
+    "watch": "vite build --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "electron": "^45.2.1",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.5"
+  }
+}

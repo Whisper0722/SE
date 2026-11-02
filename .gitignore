@@ -1,0 +1,38 @@
+# C++ build output
+player-core/build/
+player-core/build-*/
+player-core/out/
+player-core/runtime/
+*.obj
+*.o
+*.a
+*.pdb
+*.ilk
+
+# Node / Electron
+app/node_modules/
+app/dist/
+app/out/
+app/release/
+app/.electron-download/
+app/shot-*.png
+npm-debug.log*
+yarn-error.log*
+
+# Local runtime data
+test-media/
+*.db
+*.db-wal
+*.db-shm
+app-data/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
